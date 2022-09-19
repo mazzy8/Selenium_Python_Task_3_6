@@ -2,7 +2,6 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as Options_Chrome
 from selenium.webdriver.firefox.options import Options as Options_Firefox
-import time
 
 
 def pytest_addoption(parser):
